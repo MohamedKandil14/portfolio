@@ -1,0 +1,89 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* خطوط عصرية */
+    line-height: 1.6;
+    background-color: #f0f2f5; /* لون خلفية فاتح */
+    color: #333;
+    /* Removed: direction: rtl; */
+    /* Removed: text-align: right; */
+}
+
+/* لتخصيص الصورة الشخصية */
+.profile-img {
+    width: 150px; /* حجم الصورة */
+    height: 150px;
+    object-fit: cover; /* لضمان أن الصورة تملأ المساحة بدون تشويه */
+    border: 5px solid #fff; /* إطار أبيض للصورة */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل خفيف */
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #0056b3); /* تدرج لوني للخلفية */
+    color: #fff;
+    padding: 2rem 0;
+    border-radius: 8px; /* حواف دائرية */
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+header .lead {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+}
+
+.contact-info span {
+    margin: 0 10px;
+    color: #e2e6ea;
+}
+
+.social-links a {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.social-links a:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+section {
+    background: #fff;
+    border-radius: 8px; /* حواف دائرية */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* ظل خفيف */
+}
+
+section h2 {
+    color: #007bff; /* لون مميز للعناوين الرئيسية */
+    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.card-title a {
+    color: #007bff;
+}
+
+.card-title a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.badge {
+    padding: 0.5em 0.8em;
+    font-size: 0.85em;
+}
+
+footer {
+    background: #343a40; /* لون أغمق للفوتر */
+    color: #dee2e6;
+    border-radius: 8px;
+}
+
+/* Animate.css overrides (optional - for fine-tuning animations) */
+/* .animate__animated {
+    animation-duration: 1.5s;
+} */
